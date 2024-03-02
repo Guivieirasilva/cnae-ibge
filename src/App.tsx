@@ -1,4 +1,4 @@
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 import { Card } from "./components/Card"
 import { Header } from "./components/Header"
 import { Input } from "./components/Input"
