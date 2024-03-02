@@ -4,10 +4,11 @@ Este projeto tem como objetivo fornecer informações sobre a Classificação Na
 
 ## Tecnologias Utilizadas
 
-- **axios**: Biblioteca para fazer requisições HTTP no navegador e no Node.js.
-- **tailwindcss**: Framework CSS utilitário de baixo nível para criar designs personalizados.
-- **eslint**: Ferramenta para identificar e relatar padrões encontrados no código ECMAScript/JavaScript.
-- **prettier**: Formatador de código opinativo que garante a consistência do estilo de código.
+- **axios**
+- **tailwindcss**
+- **eslint**
+- **prettier**
+- **API IBGE**
 
 ## Acesso ao Projeto
 
