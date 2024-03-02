@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# CNAE-IBGE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto tem como objetivo fornecer informações sobre a Classificação Nacional de Atividades Econômicas (CNAE) através da integração com a API do IBGE. Ele permite aos usuários realizar requisições para obter detalhes sobre diferentes atividades econômicas conforme definido pela CNAE.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **axios**: Biblioteca para fazer requisições HTTP no navegador e no Node.js.
+- **tailwindcss**: Framework CSS utilitário de baixo nível para criar designs personalizados.
+- **eslint**: Ferramenta para identificar e relatar padrões encontrados no código ECMAScript/JavaScript.
+- **prettier**: Formatador de código opinativo que garante a consistência do estilo de código.
 
-## Expanding the ESLint configuration
+## Acesso ao Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+O projeto pode ser acessado através do seguinte link: [CNAE-IBGE](https://cnae-ibge.netlify.app/)
